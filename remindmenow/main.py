@@ -27,7 +27,7 @@ def checkForLaptopsIwantToBuy():
     for productTitlesTag in productTitles:
         productTitle = productTitlesTag.string
         if (productTitle.find('9570') != -1):
-            sendMail = true
+            sendMail = True
 
     for productTitlesTweakersTag in productTitlesTweakers:
         productTitleTweakers = productTitlesTweakersTag.string
