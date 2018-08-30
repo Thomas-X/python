@@ -10,7 +10,9 @@ class Mailer:
     def __init__(self):
         self.path = os.path.join(os.path.expanduser('~/gitrepos/python/slack-automail/recipients.json'))
         # self.recipients = load_json_file(self.path) 
-        self.recipients = ['thomaszwarts@gmail.com']
+    
+        # tmp test recipient email
+        self.recipients = ['']
         self.credentials = load_json_file(os.path.join(os.getcwd(), 'credentials.json'))
         self.senderemail = self.credentials.get('email')
         self.pwd = self.credentials.get('password')
