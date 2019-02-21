@@ -1,0 +1,20 @@
+{
+  "name": "database-2-opdracht1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "backpack",
+    "dev": "backpack build && node build/main.js --max-old-space-size=8192",
+    "build": "backpack build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "backpack-core": "^0.8.3",
+    "convert-units": "^2.3.4",
+    "exceljs": "^1.7.0"
+  }
+}
